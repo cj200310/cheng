@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6afbe02-2e8a-40cd-b6e0-b1a137ddd738" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Composition API Component" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Vue Options API Component" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2gp1Sd8te6l1YxRo9idGS7koeBF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CodeGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DbTestApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DbTestApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8 (2)&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/21226/Desktop/spring_boot_test - - 副本/wms-web/src/components&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.serve.executor&quot;: &quot;Run&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.12448475&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.CodeGenerator.executor&quot;: &quot;Run&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;,
+      &quot;Vue Options API Component&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\21226\Desktop\spring_boot_test - - 副本\wms-web\src\components" />
+      <recent name="C:\Users\21226\Desktop\spring_boot_test - 副本 - 副本 - 副本\db_test\src\main\resources\Mapper" />
+      <recent name="C:\Users\21226\Desktop\spring_boot_test - 副本 - 副本 - 副本\db_test\src\main\java\com\wms\db_test\service\impl" />
+      <recent name="C:\Users\21226\Desktop\spring_boot_test - 副本 - 副本 - 副本\db_test\src\main\java\com\wms\db_test\service" />
+      <recent name="C:\Users\21226\Desktop\spring_boot_test - 副本 - 副本 - 副本\db_test\src\main\java\com\wms\db_test\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wms.db_test.commom" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wms.db_test.commom.CodeGenerator" />
+      <module name="wms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wms.db_test.commom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DbTestApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="wms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wms.db_test.DbTestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wms.db_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DbTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="db_test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wms.db_test.DbTestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wms.db_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/wms-web/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.serve" />
+      <item itemvalue="Spring Boot.DbTestApplication (1)" />
+      <item itemvalue="Spring Boot.DbTestApplication" />
+      <item itemvalue="应用程序.CodeGenerator" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.CodeGenerator" />
+        <item itemvalue="Spring Boot.DbTestApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6afbe02-2e8a-40cd-b6e0-b1a137ddd738" name="Changes" comment="" />
+      <created>1716379707011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716379707011</updated>
+      <workItem from="1716379708269" duration="15909000" />
+      <workItem from="1716421772302" duration="3047000" />
+      <workItem from="1716424920158" duration="8291000" />
+      <workItem from="1716451430019" duration="8847000" />
+      <workItem from="1716462559834" duration="11355000" />
+      <workItem from="1716512722666" duration="48000" />
+      <workItem from="1716512781637" duration="685000" />
+      <workItem from="1716513548605" duration="4000" />
+      <workItem from="1716515136885" duration="3000" />
+      <workItem from="1716515201893" duration="20000" />
+      <workItem from="1716515545079" duration="15000" />
+      <workItem from="1716515603560" duration="1000" />
+      <workItem from="1716519431784" duration="7106000" />
+      <workItem from="1716538401694" duration="24000" />
+      <workItem from="1716538444839" duration="106078000" />
+      <workItem from="1716777017865" duration="1748000" />
+      <workItem from="1716779059970" duration="632000" />
+      <workItem from="1716779712448" duration="239000" />
+      <workItem from="1716779965023" duration="390000" />
+      <workItem from="1716780391205" duration="1622000" />
+      <workItem from="1716782846158" duration="878000" />
+      <workItem from="1716784430695" duration="730000" />
+      <workItem from="1716796060255" duration="4407000" />
+      <workItem from="1716800778886" duration="6286000" />
+      <workItem from="1716812559123" duration="7669000" />
+      <workItem from="1716823736079" duration="151000" />
+      <workItem from="1716823902513" duration="432000" />
+      <workItem from="1716824487471" duration="2948000" />
+      <workItem from="1716852650292" duration="4261000" />
+      <workItem from="1716905606682" duration="11615000" />
+      <workItem from="1717156857929" duration="10624000" />
+      <workItem from="1717206719735" duration="81469000" />
+      <workItem from="1717401384847" duration="573000" />
+      <workItem from="1717423532305" duration="11122000" />
+      <workItem from="1717460401651" duration="11712000" />
+      <workItem from="1717646802395" duration="15100000" />
+      <workItem from="1717810629646" duration="7940000" />
+      <workItem from="1718199868931" duration="21000" />
+      <workItem from="1718869485361" duration="1277000" />
+      <workItem from="1718885370009" duration="3780000" />
+      <workItem from="1718893843304" duration="3294000" />
+      <workItem from="1718924766243" duration="6543000" />
+      <workItem from="1719134609480" duration="1958000" />
+      <workItem from="1719141545603" duration="4867000" />
+      <workItem from="1719320616072" duration="18087000" />
+      <workItem from="1719539804989" duration="1098000" />
+      <workItem from="1719566275495" duration="14612000" />
+      <workItem from="1719622659540" duration="26167000" />
+      <workItem from="1719662012247" duration="6339000" />
+      <workItem from="1719668576103" duration="456000" />
+      <workItem from="1719669267607" duration="2101000" />
+      <workItem from="1719671717575" duration="23600000" />
+      <workItem from="1719747811253" duration="24270000" />
+      <workItem from="1719814120170" duration="7526000" />
+      <workItem from="1719822332481" duration="2810000" />
+      <workItem from="1719835624552" duration="41059000" />
+      <workItem from="1719924343164" duration="26000" />
+      <workItem from="1719925430661" duration="798000" />
+      <workItem from="1719927093536" duration="19586000" />
+      <workItem from="1719987034974" duration="2977000" />
+      <workItem from="1720010037743" duration="9753000" />
+      <workItem from="1720106450342" duration="3187000" />
+      <workItem from="1720271547897" duration="61000" />
+      <workItem from="1720271655588" duration="4899000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

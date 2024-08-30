@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wms.db_test.mapper.TemperaturesMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wms.db_test.entity.Temperatures">
+        <result column="temperatureC" property="temperaturec" />
+        <result column="humidityPercent" property="humiditypercent" />
+    </resultMap>
+
+    <resultMap id="BaseResultMap1" type="com.wms.db_test.entity.Dapengname">
+        <result column="dapengid" property="dapengid" />
+        <result column="dapengName" property="dapengname" />
+    </resultMap>
+
+    <resultMap id="BaseResultMap2" type="com.wms.db_test.entity.guanli">
+        <result column="guanliName" property="guanliName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        temperatureC, humidityPercent
+    </sql>
+
+    <insert id="pageCC">
+        INSERT INTO temperatures(temperatureC,humidityPercent) VALUES(#{temperatureC},#{humidityPercent})
+    </insert>
+
+    <select id="pageCCC" resultMap="BaseResultMap">
+        SELECT temperatures.temperatureC,temperatures.humidityPercent
+        FROM temperatures
+        WHERE id = (SELECT MAX(id) FROM temperatures)
+    </select>
+
+    <select id="pageCCCC" resultMap="BaseResultMap">
+        SELECT temperatures.temperatureC,temperatures.humidityPercent
+        FROM temperatures
+        WHERE id = (SELECT MAX(id) FROM temperatures)
+    </select>
+
+    <insert id="add">
+        INSERT INTO temperature(temperature) VALUES(#{messageBody})
+    </insert>
+
+    <insert id="addtwo">
+        INSERT INTO humidity(humidity) VALUES(#{messageBody})
+    </insert>
+
+    <select id="getdp" resultMap="BaseResultMap1">
+        SELECT dapengname.dapengName,dapengname.dapengid FROM dapengname
+    </select>
+
+    <select id="getgl" resultMap="BaseResultMap2">
+        SELECT guanli.guanliName FROM guanli
+    </select>
+
+    <insert id="Save">
+        call Save(#{dapengid},#{guanliid},#{biaozhun},#{dengji});
+    </insert>
+
+</mapper>

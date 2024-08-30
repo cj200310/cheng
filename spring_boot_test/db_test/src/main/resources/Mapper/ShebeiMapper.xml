@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wms.db_test.mapper.ShebeiMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wms.db_test.entity.Shebei">
+        <id column="shebeiId" property="shebeiid" />
+        <result column="shebeiname" property="shebeiname" />
+        <result column="type" property="type" />
+        <result column="state" property="state" />
+    </resultMap>
+
+    <resultMap id="BaseResultMap1" type="com.wms.db_test.entity.shebeimore">
+        <id column="shebeiId" property="shebeiid" />
+        <result column="shebeiname" property="shebeiname" />
+        <result column="type" property="type" />
+        <result column="state" property="state" />
+        <result column="dapengid" property="dapengid" />
+        <result column="dapengName" property="dapengname" />
+        <result column="commandtype" property="commandtype" />
+        <result column="commandvalue" property="commandvalue" />
+        <result column="executionstatus" property="executionstatus" />
+        <result column="executiontime" property="executiontime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        shebeiId, shebeiname, type, state
+    </sql>
+
+    <select id="shebei" resultMap="BaseResultMap1">
+        select shebei.shebeiId,shebei.shebeiname,shebei.state,shebei.type,dapengname.dapengName,dapengname.dapengid,control.commandtype,control.commandvalue,control.executionstatus,control.executiontime from shebei inner join dapengname ON shebei.dpid=dapengname.dapengid INNER JOIN control ON shebei.shebeiId = control.deviceid
+        ${ew.customSqlSegment}
+    </select>
+
+    <select id="dpc" resultMap="BaseResultMap1">
+        select shebei.shebeiId,shebei.shebeiname,shebei.state,shebei.type,dapengname.dapengName,dapengname.dapengid,control.commandtype,control.commandvalue,control.executionstatus,control.executiontime from shebei inner join dapengname ON shebei.dpid=dapengname.dapengid INNER JOIN control ON shebei.shebeiId = control.deviceid
+        where dapengname.dapengName= #{dpname}
+    </select>
+
+</mapper>

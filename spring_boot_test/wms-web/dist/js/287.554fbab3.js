@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkwms_web"]=self["webpackChunkwms_web"]||[]).push([[287],{7287:function(e,n,r){r.r(n),r.d(n,{default:function(){return l}});var u=function(){var e=this,n=e._self._c;return n("span",[e._v("OrderFoodManage")])},a=[],s={name:"OrderFoodManage"},t=s,c=r(1656),f=(0,c.A)(t,u,a,!1,null,"8b6cef28",null),l=f.exports}}]);
+//# sourceMappingURL=287.554fbab3.js.map

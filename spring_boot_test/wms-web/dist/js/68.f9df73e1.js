@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkwms_web"]=self["webpackChunkwms_web"]||[]).push([[68],{1068:function(e,n,r){r.r(n),r.d(n,{default:function(){return f}});var u=function(){var e=this,n=e._self._c;return n("span",[e._v("QueryOrderingManage")])},a=[],s={name:"QueryOrderingManage"},t=s,l=r(1656),c=(0,l.A)(t,u,a,!1,null,"622799e8",null),f=c.exports}}]);
+//# sourceMappingURL=68.f9df73e1.js.map
